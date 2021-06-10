@@ -1,0 +1,75 @@
+body{
+  background-color: blue;
+}
+.cuadrados{
+  width:100px;
+  height: 100px;
+  background-color: pink;
+}
+
+p{font-size:15px;
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+line-height: 50px;
+
+}
+#uno{background-color: red;}
+
+#dos{background-color: yellow;}
+
+#tres{background-color: orange;}
+
+#cuatro{background-color: green;}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #uno{
+    background-color: pink;
+  }
+  #dos{ background-color: orange;}
+
+  #tres{ background-color: gray;}
+
+  #cuatro{ background-color:#4A5B99;}
+
+  .cuadrados{
+    width:100px;
+    height: 100px;
+    background-color: pink;
+    margin:20px;
+    float:left;
+    clear: both;
+    top:120px;
+  }
+  .cuadrados:hover{
+  opacity: 50%;
+  transform:rotate(360deg);}
+
+  #cuadradoderecho{
+    height: 190px;
+    width: 180px;
+    background-color: white;
+    float: left;
+    clear: both;
+    margin:20px;
+  }
+
+  p{line-height: 125px;}
+}
+#contenedor{
+float: left;
+}
+#titulo{
+  text-align: center;
+  font-family: serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: lightblue;
+-webkit-text-stroke: white 3px;
+}

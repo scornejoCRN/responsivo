@@ -1,0 +1,83 @@
+@media screen and (max-width: 424px) {
+  body {
+    background-color: purple;
+  }
+
+.cuadros {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  margin: 20px;
+}
+
+p {
+  font-family: "Ranchers";
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+}
+
+#uno {
+  background-color: pink;
+}
+
+#dos {
+  background-color: yellow;
+}
+
+#tres {
+  background-color: orange;
+}
+
+#cuatro {
+  background-color: green;
+}
+
+#cuadradoderecho {
+  width: 660px;
+  height: 480px;
+  background-color: white;
+  float: left;
+  margin: 20px;
+}
+
+#contenedor {
+  float: left;
+}
+
+#contenido {
+  width: 900px;
+  height: 1400px;
+  background-color: green;
+  margin: 20px;
+}
+
+#titulo {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 100px;
+  color: lightblue;
+  text-align: center;
+  -webkit-text-stroke: white 3px;
+}
+
+
+  .cuadros {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    transition: 1s;
+    float: left;
+  }
+
+  .cuadros:hover {
+    opacity: 50%;
+    transform: rotate(360deg);
+  }
+
+  p {
+    line-height: 125px;
+    font-size: 25px;
+  }
+}
